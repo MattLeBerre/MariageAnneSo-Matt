@@ -1,5 +1,12 @@
 #header h1{
-	font-family: serif;
+	font-family: 'Indie flower', cursive;
 	text-align: center;
-	font-size-adjust: 23;
+	color:#143146;
+	background-color: #F72F52
+	font-size: 400;
+}
+p{
+	font-size: 17
+	font-family: 'Open sans', sans-serif;
+
 }
