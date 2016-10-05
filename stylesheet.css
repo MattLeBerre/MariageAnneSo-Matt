@@ -1,12 +1,13 @@
 #header{
-	background-color: #3F51B5;
+	text-align:center;
+	padding-top:150px;
+	padding-bottom: 150px;
+	background: url("http://lorempixel.com/1300/600/abstract");
 }
 
 #header h1{
 	font-family: 'Indie flower', cursive;
-	text-align: center;
 	color:white;
-	font-size: 400;
 }
 p{
 	font-size: 17
@@ -15,6 +16,7 @@ p{
 }
 #date{
 	text-align: center;
+	color:white;
 	font-family: 'Roboto';
 	
 }
@@ -23,3 +25,25 @@ body	{
 	font-family: 'Open sans', sans-serif;
 }
 
+.menu {
+	font-weight: 300;
+	padding:40px
+}
+
+.menu img{
+	padding:20px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.menu p {}
+
+#footer{
+	padding:30px;
+	background: rgb(30,30,30);
+	color: lightgrey;
+}
+
+#copyright{
+	text-align: right;
+}
