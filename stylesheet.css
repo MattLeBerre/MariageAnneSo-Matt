@@ -1,5 +1,67 @@
+#header{
+	text-align:center;
+	padding-top:150px;
+	padding-bottom: 150px;
+	background: url("http://lorempixel.com/1300/600/abstract");
+}
+
 #header h1{
-	font-family: serif;
+	font-family: 'Indie flower', cursive;
+	color:white;
+}
+p{
+	font-size: 17
+	font-family: 'Open sans', sans-serif;
+
+}
+#date{
 	text-align: center;
-	font-size-adjust: 23;
+	color:white;
+	font-family: 'Roboto';
+	
+}
+
+body	{
+	font-family: 'Open sans', sans-serif;
+}
+
+.menu {
+	font-weight: 300;
+	padding:40px
+}
+
+.menu img{
+	padding:20px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.menu p {}
+
+#footer{
+	padding:30px;
+	background: rgb(55,55,55);
+	color: lightgrey;
+}
+
+#copyright{
+	text-align: right;
+}
+
+#footer a{
+	color:lightgrey;
+	font-size:25px;
+}
+
+#footer a:hover {
+	color:white;
+
+}
+
+#footer a:link { /*permet de définir un comportement si le lien du footer n'a jamais été cliqué !*/
+
+}
+
+#footer a:visited {/*permet de définir un comportement si le lien du footer a déjà été cliqué !*/
+
 }
