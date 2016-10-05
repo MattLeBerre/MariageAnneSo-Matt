@@ -40,10 +40,28 @@ body	{
 
 #footer{
 	padding:30px;
-	background: white;
+	background: rgb(55,55,55);
 	color: lightgrey;
 }
 
 #copyright{
 	text-align: right;
+}
+
+#footer a{
+	color:lightgrey;
+	font-size:25px;
+}
+
+#footer a:hover {
+	color:white;
+
+}
+
+#footer a:link { /*permet de définir un comportement si le lien du footer n'a jamais été cliqué !*/
+
+}
+
+#footer a:visited {/*permet de définir un comportement si le lien du footer a déjà été cliqué !*/
+
 }
